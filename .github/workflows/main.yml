@@ -3,17 +3,14 @@ on:
       branches:
         - master
   
-  
-  
-  
   jobs:
     build:
       runs-on: ubuntu-latest
+      steps:
+        - name: 'Test'
+          run: |
+            echo abdo
+            pwd
+        - name: 'Testing'
+          run: echo abdo
   
-
-        
-        steps:
-            - name: 'test' 
-                run: pwd
-            - name: 'Testing'
-                run: echo abdo 
