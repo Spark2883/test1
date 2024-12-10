@@ -6,11 +6,11 @@ on:
   jobs:
     build:
       runs-on: ubuntu-latest
+
       steps:
-        - name: 'Test'
-          run: |
-            echo abdo
-            pwd
+        - name: 'Testing github action'
+          run: pwd
+            
         - name: 'Testing'
           run: echo abdo
   
